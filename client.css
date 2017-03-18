@@ -1,0 +1,52 @@
+@font-face {
+  font-family: FibonSans;
+  src: url("fibon.otf") format("opentype");
+}
+
+body {
+  background: #16a085;
+  font-family: FibonSans;
+  text-align: center;
+}
+
+.logo {
+  width: 320px;
+  margin: auto;
+  display: block;
+}
+
+.content {
+  width: 300px;
+  height: 568px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -250px 0 0 -150px;
+}
+
+p {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-top: 0
+}
+
+.privacy {
+  color: white;
+  text-decoration: underline;
+  width: 97px;
+  margin: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.appstore {
+  width: 155px;
+  height: 60px;
+  margin-top: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  display: none;
+}
